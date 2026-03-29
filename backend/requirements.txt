@@ -1,0 +1,17 @@
+Flask==3.0.0
+firebase-admin==6.3.0
+pytesseract==0.3.10
+easyocr==1.7.1
+opencv-python==4.9.0.80
+Pillow==10.2.0
+numpy==1.26.3
+spacy==3.7.2
+nltk==3.8.1
+scikit-learn==1.4.0
+beautifulsoup4==4.12.3
+selenium==4.16.0
+requests==2.31.0
+python-dotenv==1.0.0
+gunicorn==21.2.0
+flask-cors==4.0.0
+webdriver-manager==4.0.1

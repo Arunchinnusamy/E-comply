@@ -1,0 +1,40 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+
+# Firebase
+google-services.json
+firebase-credentials.json
+
+# Backend
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env
+backend/uploads/
+backend/*.log
+hs_err_pid*.log
+
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+venv/
+ENV/
+
+# Sensitive data
+*.key
+*.pem
+secrets/
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
