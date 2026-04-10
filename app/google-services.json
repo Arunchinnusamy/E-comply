@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "187630824208",
+    "project_id": "e-comply",
+    "storage_bucket": "e-comply.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187630824208:android:4e83982f29f187d1085395",
+        "android_client_info": {
+          "package_name": "com.example.e_comply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187630824208-93lpi4iimd91j9j77l0hs0s2qa548f6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlWdrtDDuEmbYEXmmOvgFBo2q9xHhhFAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187630824208-93lpi4iimd91j9j77l0hs0s2qa548f6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
