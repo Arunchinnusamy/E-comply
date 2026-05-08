@@ -6,14 +6,11 @@ import com.example.e_comply.data.local.dao.ProductDao
 import com.example.e_comply.data.local.entity.ProductEntity
 import com.example.e_comply.data.local.entity.SyncStatus
 import com.example.e_comply.data.model.Product
-import com.example.e_comply.data.model.ProductSource
+import com.example.e_comply.data.ocr.MlKitTextRecognizer
 import com.example.e_comply.data.remote.ApiService
 import com.example.e_comply.data.remote.OcrRequest
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
-import com.google.mlkit.vision.common.InputImage
-import com.google.mlkit.vision.text.TextRecognition
-import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.tasks.await
@@ -27,20 +24,14 @@ class ProductRepository @Inject constructor(
     private val firestore: FirebaseFirestore,
     private val storage: FirebaseStorage,
     private val apiService: ApiService,
-    private val productDao: ProductDao
+    private val productDao: ProductDao,
+    private val textRecognizer: MlKitTextRecognizer
 ) {
-
-    private val textRecognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS)
 
     // ── OCR ───────────────────────────────────────────────────────────────────
 
     suspend fun extractTextFromImage(bitmap: Bitmap): Result<String> {
-        return try {
-            val result = textRecognizer.process(InputImage.fromBitmap(bitmap, 0)).await()
-            Result.success(result.text)
-        } catch (e: Exception) {
-            Result.failure(e)
-        }
+        return textRecognizer.detectTextResult(bitmap)
     }
 
     suspend fun extractTextFromImageViaBackend(bitmap: Bitmap): Result<String> {

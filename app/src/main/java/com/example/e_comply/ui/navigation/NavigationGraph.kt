@@ -99,7 +99,7 @@ fun NavigationGraph(
                     navController.navigate(Screen.Camera.route)
                 },
                 onNavigateToReports = {
-                    navController.navigate(Screen.ReportsList.route)
+                    navController.navigate(Screen.Reports.route)
                 },
                 onLogout = {
                     navController.navigate(Screen.Login.route) {
@@ -182,6 +182,14 @@ fun NavigationGraph(
                 },
                 onReportClick = { reportId ->
                     navController.navigate(Screen.ComplianceReport.createRoute(reportId))
+                }
+            )
+        }
+
+        composable(Screen.Reports.route) {
+            ReportsScreen(
+                onBack = {
+                    navController.popBackStack()
                 }
             )
         }

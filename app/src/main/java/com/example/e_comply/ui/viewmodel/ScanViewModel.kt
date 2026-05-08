@@ -4,8 +4,10 @@ import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.e_comply.data.model.Product
+import com.example.e_comply.data.model.ReportItem
 import com.example.e_comply.data.model.ProductSource
 import com.example.e_comply.data.repository.ProductRepository
+import com.example.e_comply.data.repository.ReportRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -15,7 +17,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class ScanViewModel @Inject constructor(
-    private val productRepository: ProductRepository
+    private val productRepository: ProductRepository,
+    private val reportRepository: ReportRepository
 ) : ViewModel() {
     
     private val _scanState = MutableStateFlow<ScanState>(ScanState.Initial)
@@ -26,9 +29,67 @@ class ScanViewModel @Inject constructor(
     
     private val _capturedImage = MutableStateFlow<Bitmap?>(null)
     val capturedImage: StateFlow<Bitmap?> = _capturedImage.asStateFlow()
+
+    private val _lastSavedReportId = MutableStateFlow<String?>(null)
+    val lastSavedReportId: StateFlow<String?> = _lastSavedReportId.asStateFlow()
+
+    private val _reports = MutableStateFlow<List<ReportItem>>(emptyList())
+    val reports: StateFlow<List<ReportItem>> = _reports.asStateFlow()
+
+    private val _reportsLoading = MutableStateFlow(false)
+    val reportsLoading: StateFlow<Boolean> = _reportsLoading.asStateFlow()
+
+    private val _reportsError = MutableStateFlow<String?>(null)
+    val reportsError: StateFlow<String?> = _reportsError.asStateFlow()
     
     fun setCapturedImage(bitmap: Bitmap) {
         _capturedImage.value = bitmap
+    }
+
+    fun detectText(bitmap: Bitmap) {
+        extractText(bitmap)
+    }
+
+    fun detectText(bitmap: Bitmap, onResult: (Result<String>) -> Unit) {
+        viewModelScope.launch {
+            _scanState.value = ScanState.Extracting
+            val result = productRepository.extractTextFromImage(bitmap)
+            result.onSuccess { text ->
+                _extractedText.value = text
+                _scanState.value = ScanState.TextExtracted(text)
+                saveDetectedTextToFirestore(text)
+            }.onFailure { exception ->
+                _scanState.value = ScanState.Error(exception.message ?: "Text extraction failed")
+            }
+            onResult(result)
+        }
+    }
+
+    fun saveDetectedTextToFirestore(detectedText: String, onResult: ((Result<String>) -> Unit)? = null) {
+        viewModelScope.launch {
+            val saveResult = reportRepository.saveDetectedTextReport(detectedText)
+            saveResult.onSuccess { reportId ->
+                _lastSavedReportId.value = reportId
+            }
+            onResult?.invoke(saveResult)
+        }
+    }
+
+    fun loadReports() {
+        viewModelScope.launch {
+            _reportsLoading.value = true
+            _reportsError.value = null
+
+            val result = reportRepository.fetchReportsForCurrentUser()
+            result.onSuccess { reports ->
+                _reports.value = reports
+            }.onFailure { exception ->
+                _reportsError.value = exception.message ?: "Failed to load reports"
+                _reports.value = emptyList()
+            }
+
+            _reportsLoading.value = false
+        }
     }
     
     fun extractText(bitmap: Bitmap, useBackend: Boolean = false) {
@@ -44,6 +105,7 @@ class ScanViewModel @Inject constructor(
             result.onSuccess { text ->
                 _extractedText.value = text
                 _scanState.value = ScanState.TextExtracted(text)
+                saveDetectedTextToFirestore(text)
             }.onFailure { exception ->
                 _scanState.value = ScanState.Error(exception.message ?: "Text extraction failed")
             }
@@ -81,6 +143,10 @@ class ScanViewModel @Inject constructor(
         _scanState.value = ScanState.Initial
         _extractedText.value = ""
         _capturedImage.value = null
+        _lastSavedReportId.value = null
+        _reports.value = emptyList()
+        _reportsError.value = null
+        _reportsLoading.value = false
     }
 }
 

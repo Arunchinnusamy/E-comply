@@ -25,6 +25,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExtendedFloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -137,10 +138,19 @@ fun UserHomeScreen(
 
             FeatureCard(
                 icon = Icons.AutoMirrored.Filled.List,
-                title = "Compliance Reports",
-                description = "Track your validations, scores, and non-compliance patterns over time.",
+                title = "My Reports",
+                description = "Review the OCR text reports saved from your own scans.",
                 onClick = onNavigateToReports
             )
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Button(
+                onClick = onNavigateToReports,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Open Reports")
+            }
 
             Spacer(modifier = Modifier.height(16.dp))
 

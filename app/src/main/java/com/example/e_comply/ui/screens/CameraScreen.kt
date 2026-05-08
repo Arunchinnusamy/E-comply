@@ -77,7 +77,7 @@ fun CameraScreen(
                                         override fun onCaptureSuccess(image: ImageProxy) {
                                             val bitmap = imageProxyToBitmap(image)
                                             scanViewModel.setCapturedImage(bitmap)
-                                            scanViewModel.extractText(bitmap)
+                                            scanViewModel.detectText(bitmap)
                                             image.close()
                                             onImageCaptured()
                                         }
