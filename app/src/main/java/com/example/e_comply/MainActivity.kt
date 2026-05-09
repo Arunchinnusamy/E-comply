@@ -9,7 +9,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
-import com.example.e_comply.ui.navigation.NavigationGraph
+import com.example.e_comply.feature.navigation.NavigationGraph
 import com.example.e_comply.ui.theme.EcomplyTheme
 import dagger.hilt.android.AndroidEntryPoint
 

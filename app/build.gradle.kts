@@ -32,7 +32,11 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            buildConfigField("String", "BASE_URL", "\"https://your-production-api.com/\"")
+            // Set PRODUCTION_BASE_URL in local.properties, e.g.:
+            //   PRODUCTION_BASE_URL=https://api.yourserver.com/
+            val productionUrl = (project.findProperty("PRODUCTION_BASE_URL") as String?)
+                ?: "https://your-production-api.com/"
+            buildConfigField("String", "BASE_URL", "\"$productionUrl\"")
         }
     }
     compileOptions {
@@ -51,6 +55,7 @@ android {
 }
 
 kotlin {
+    jvmToolchain(21)
     compilerOptions {
         jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21)
     }
@@ -99,6 +104,10 @@ dependencies {
     
     // Accompanist
     implementation(libs.accompanist.permissions)
+
+    // QR Code
+    implementation("com.google.zxing:core:3.5.1")
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)

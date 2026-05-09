@@ -1,7 +1,9 @@
 import logging
 from datetime import datetime
+from config import Config
 from services.ocr_service import OCRService
 from services.compliance_service import ComplianceService
+from services.firestore_service import FirestoreService
 
 logger = logging.getLogger(__name__)
 
@@ -12,9 +14,11 @@ class IoTService:
         """Initialize IoT service"""
         self.ocr_service = OCRService()
         self.compliance_service = ComplianceService()
-        self.registered_devices = set()  # In production, use database
+        self.firestore = FirestoreService()
+        # Expected API key for IoT devices (set IOT_API_KEY in .env)
+        self.api_key = Config.IOT_API_KEY
     
-    def process_device_data(self, device_id, image_base64=None, sensor_data=None):
+    def process_device_data(self, device_id, image_base64=None, sensor_data=None, api_key=None):
         """
         Process data from IoT device
         
@@ -37,8 +41,8 @@ class IoTService:
                 'report': None
             }
             
-            # Validate device (in production, check device registration)
-            if not self.validate_device(device_id):
+            # Validate device
+            if not self.validate_device(device_id, api_key=api_key):
                 result['success'] = False
                 result['message'] = 'Device not registered'
                 return result
@@ -91,24 +95,28 @@ class IoTService:
                 'timestamp': int(datetime.now().timestamp() * 1000)
             }
     
-    def validate_device(self, device_id):
+    def validate_device(self, device_id, api_key=None):
         """
-        Validate if device is registered
-        
+        Validate if device is registered in Firestore and API key matches.
+
         Args:
             device_id: Device identifier
-            
+            api_key: API key supplied by the device (optional header)
+
         Returns:
-            bool: True if device is valid
+            bool: True if device is valid and authorised
         """
-        # In production, verify against database
-        # For now, accept all devices that match pattern
+        # 1. API key check (skip in debug mode if key not configured)
+        if self.api_key and api_key != self.api_key:
+            logger.warning(f"IoT auth failed for device {device_id}: bad API key")
+            return False
+
+        # 2. Minimum length sanity check
         if not device_id or len(device_id) < 8:
             return False
-        
-        # Auto-register device for demo purposes
-        self.registered_devices.add(device_id)
-        return True
+
+        # 3. Firestore registration check
+        return self.firestore.is_device_registered(device_id)
     
     def create_product_from_ocr(self, ocr_result, device_id, sensor_data):
         """
@@ -200,14 +208,14 @@ class IoTService:
     
     def log_device_activity(self, device_id, result):
         """
-        Log device activity for monitoring
-        
+        Log device activity to Firestore for monitoring.
+
         Args:
             device_id: Device identifier
             result: Processing result
         """
-        # In production, log to database or monitoring system
-        logger.info(f"Device {device_id} activity logged: {result['success']}")
+        self.firestore.log_iot_activity(device_id, result)
+        logger.info(f"Device {device_id} activity logged to Firestore: success={result['success']}")
     
     def generate_product_id(self):
         """Generate unique product ID"""
@@ -216,41 +224,37 @@ class IoTService:
     
     def get_device_history(self, device_id):
         """
-        Get activity history for a device
-        
+        Get activity history for a device from Firestore.
+
         Args:
             device_id: Device identifier
-            
+
         Returns:
-            list: Device activity history
+            list: Device activity log entries
         """
-        # In production, fetch from database
-        return []
+        return self.firestore.query_collection(
+            self.firestore.IOT_LOGS_COLLECTION,
+            filters=[("deviceId", "==", device_id)],
+            order_by="timestamp",
+        )
     
     def register_device(self, device_id, device_info):
         """
-        Register a new IoT device
-        
+        Register a new IoT device in Firestore.
+
         Args:
             device_id: Device identifier
             device_info: Device information dictionary
-            
+
         Returns:
             dict: Registration result
         """
         try:
-            self.registered_devices.add(device_id)
-            
-            logger.info(f"Device registered: {device_id}")
-            
-            return {
-                'success': True,
-                'message': 'Device registered successfully',
-                'deviceId': device_id
-            }
+            success = self.firestore.register_device(device_id, device_info)
+            if success:
+                logger.info(f"Device registered in Firestore: {device_id}")
+                return {"success": True, "message": "Device registered successfully", "deviceId": device_id}
+            return {"success": False, "message": "Failed to register device in Firestore"}
         except Exception as e:
-            logger.error(f"Device registration failed: {str(e)}")
-            return {
-                'success': False,
-                'message': f'Registration failed: {str(e)}'
-            }
+            logger.error(f"Device registration failed: {e}")
+            return {"success": False, "message": f"Registration failed: {e}"}

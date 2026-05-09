@@ -1,0 +1,16 @@
+product_name,category,manufacturer_name,manufacturer_address,importer_name,importer_address,mrp,net_quantity,manufacturing_date,expiry_date,batch_number,customer_care,country_of_origin,barcode,license_number,label_status,compliance_score,risk_level,compliance_label
+Aachi Chilli Powder,Food,Aachi Masala Foods Pvt Ltd,Chennai India,,,50,100g,01-01-2026,01-01-2027,BT1001,1800123456,India,8901234567890,LIC12345,Valid,95,LOW,1
+Lakme Face Wash,Cosmetics,HUL,Mumbai India,,,199,100ml,12-02-2026,12-02-2028,LAK455,1800456789,India,8902233445566,LIC22334,Valid,92,LOW,1
+Parle G Biscuits,Food,Parle Products Pvt Ltd,Mumbai India,,,10,80g,10-03-2026,10-09-2026,PRL100,1800112233,India,8909988776655,LIC33445,Valid,90,LOW,1
+Fake Herbal Oil,Cosmetics,Unknown,,,,120,200ml,,,FH009,,India,,LIC00000,Invalid,45,HIGH,0
+Samsung Charger,Electronics,Samsung India,Noida India,,,899,1 Unit,05-01-2026,,SM1002,1800407267864,India,8806091234567,ELC77889,Valid,88,MEDIUM,1
+Imported Chocolate,Food,,,ABC Imports,Delhi India,250,250g,15-01-2026,15-07-2026,IMP789,1800987654,Germany,4006381333931,IMP55667,Valid,89,MEDIUM,1
+Clinic Plus Shampoo,Cosmetics,HUL,Mumbai India,,,5,6ml,11-02-2026,11-02-2028,CLP900,1800223344,India,8901030865432,LIC77881,Valid,91,LOW,1
+Unknown Product,Packaged Goods,,,,,99,500g,,,,India,,,Invalid,30,HIGH,0
+Dove Soap,Cosmetics,HUL,Bangalore India,,,45,75g,01-01-2026,01-01-2028,DOV222,1800225566,India,8901030976543,LIC99001,Valid,93,LOW,1
+Amul Milk,Food,Amul Dairy,Gujarat India,,,32,500ml,08-05-2026,10-05-2026,AML654,1800255566,India,8901265432109,FSSAI7788,Valid,94,LOW,1
+Boat Earphones,Electronics,Imagine Marketing,Mumbai India,,,1499,1 Unit,20-03-2026,,BAT998,1800102020,India,8907654321123,ELC99087,Valid,86,MEDIUM,1
+Expired Juice,Food,Tropicana,Delhi India,,,110,1L,01-01-2025,01-01-2026,TRP001,1800456111,India,8901000001111,FSSAI9999,Invalid,50,HIGH,0
+Mamaearth Face Cream,Cosmetics,Mamaearth Pvt Ltd,Gurgaon India,,,349,50ml,14-04-2026,14-04-2028,MME334,1800887766,India,8905678901234,COS7788,Valid,92,LOW,1
+Imported Perfume,Cosmetics,,,Luxury Imports,Mumbai India,4500,100ml,05-03-2026,05-03-2029,IMP444,1800765432,France,3760123456789,IMP7788,Valid,87,MEDIUM,1
+Fake Protein Powder,Health Supplements,Unknown,,,,999,1kg,,,PRT009,,USA,,,Invalid,25,HIGH,0

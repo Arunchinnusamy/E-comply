@@ -2,6 +2,7 @@ import re
 import logging
 from datetime import datetime
 from config import Config
+from services.firestore_service import FirestoreService
 
 logger = logging.getLogger(__name__)
 
@@ -11,6 +12,7 @@ class ComplianceService:
     def __init__(self):
         """Initialize compliance service"""
         self.mandatory_fields = Config.MANDATORY_FIELDS
+        self.firestore = FirestoreService()
         
     def validate_product(self, product, extracted_text=''):
         """
@@ -72,9 +74,16 @@ class ComplianceService:
             
             # Generate AI summary
             report['aiSummary'] = self.generate_ai_summary(product, report)
-            
+
+            # Persist to Firestore
+            saved = self.firestore.save_report(report)
+            if saved:
+                logger.info(f"Report {report['id']} saved to Firestore")
+            else:
+                logger.warning(f"Report {report['id']} could not be saved to Firestore")
+
             logger.info(f"Compliance validation completed for product: {product.get('name')}")
-            
+
             return report
             
         except Exception as e:
@@ -95,17 +104,26 @@ class ComplianceService:
         violations = []
         
         field_mapping = {
+            'Product Name': 'name',
+            'Brand Name': 'brandName',
+            'Category': 'category',
             'Manufacturer Name': 'manufacturerName',
             'Manufacturer Address': 'manufacturerAddress',
-            'Net Quantity': 'netQuantity',
+            'Importer Name': 'importerName',
+            'Importer Address': 'importerAddress',
             'MRP': 'mrp',
+            'Net Quantity': 'netQuantity',
             'Manufacturing/Packing Date': 'manufacturingDate',
+            'Expiry Date': 'expiryDate',
+            'Batch Number': 'batchNumber',
             'Customer Care Details': 'customerCareDetails',
-            'Country of Origin': 'countryOfOrigin'
+            'Country of Origin': 'countryOfOrigin',
+            'Barcode / QR Code': 'barcode',
+            'License Number': 'licenseNumber',
         }
         
         for field_name, field_key in field_mapping.items():
-            field_value = product.get(field_key, '').strip()
+            field_value = str(product.get(field_key, '')).strip()
             
             if not field_value:
                 missing_fields.append(field_name)
@@ -332,24 +350,37 @@ class ComplianceService:
     
     def get_report(self, report_id):
         """
-        Get compliance report by ID
-        (In production, this would fetch from Firebase)
+        Get compliance report by ID from Firestore.
+
+        Args:
+            report_id: Unique report identifier
+
+        Returns:
+            dict | None: Report data or None if not found
         """
-        # Placeholder - implement Firebase integration
-        return None
-    
+        return self.firestore.get_report(report_id)
+
     def get_user_reports(self, user_id):
         """
-        Get all reports for a user
-        (In production, this would fetch from Firebase)
+        Get all compliance reports belonging to a specific user.
+
+        Args:
+            user_id: Firebase UID of the user
+
+        Returns:
+            list[dict]: List of report documents
         """
-        # Placeholder - implement Firebase integration
-        return []
-    
+        return self.firestore.get_user_reports(user_id)
+
     def get_inspector_reports(self, status=None, risk_level=None):
         """
-        Get reports for inspectors with optional filters
-        (In production, this would fetch from Firebase)
+        Get compliance reports for inspectors with optional filters.
+
+        Args:
+            status: Optional ComplianceStatus filter string
+            risk_level: Optional RiskLevel filter string
+
+        Returns:
+            list[dict]: Filtered list of report documents
         """
-        # Placeholder - implement Firebase integration
-        return []
+        return self.firestore.get_inspector_reports(status=status, risk_level=risk_level)

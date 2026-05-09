@@ -1,0 +1,4618 @@
+{
+  "batch_summary": {
+    "total_products": 41,
+    "compliant": 0,
+    "partially_compliant": 33,
+    "non_compliant": 8,
+    "average_score": 78.56,
+    "generated_at": "2026-05-09T07:55:32.128728"
+  },
+  "reports": [
+    {
+      "report_id": "FOOD-RPT-20260509075532-6721",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Aachi Chilli Powder",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "50",
+        "manufacturer": "Aachi Masala Foods Pvt Ltd",
+        "net_quantity": "100g",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2027-01",
+        "fssai_license": null,
+        "customer_care": "1800-599-8000",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "50",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Aachi Masala Foods Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "100g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2027-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-599-8000",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Aachi Chilli Powder' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-3969",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Tata Salt",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "28",
+        "manufacturer": "Tata Chemicals Ltd",
+        "net_quantity": "1kg",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2027-03",
+        "fssai_license": null,
+        "customer_care": "1800-209-8080",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "28",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Tata Chemicals Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "1kg",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2027-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-209-8080",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Tata Salt' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-0224",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Fortune Sunlite Oil",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "180",
+        "manufacturer": "Adani Wilmar Ltd",
+        "net_quantity": "1L",
+        "manufacturing_date": "2025-02",
+        "expiry_date": "2026-08",
+        "fssai_license": null,
+        "customer_care": "1800-103-5858",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "180",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Adani Wilmar Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "1L",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-08",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-103-5858",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Fortune Sunlite Oil' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-7029",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "MTR Sambar Powder",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "85",
+        "manufacturer": "MTR Foods Pvt Ltd",
+        "net_quantity": "200g",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2026-07",
+        "fssai_license": null,
+        "customer_care": "080-46730000",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "85",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "MTR Foods Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "200g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-07",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "080-46730000",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'MTR Sambar Powder' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-1325",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Amul Butter",
+        "category": "Dairy",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "56",
+        "manufacturer": "Gujarat Cooperative Milk Marketing Federation",
+        "net_quantity": "500g",
+        "manufacturing_date": "2025-04",
+        "expiry_date": "2025-10",
+        "fssai_license": null,
+        "customer_care": "1800-258-3333",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "56",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Gujarat Cooperative Milk Marketing Federation",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "500g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2025-10",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-258-3333",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Amul Butter' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-9246",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Haldiram Aloo Bhujia",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "45",
+        "manufacturer": "Haldiram Snacks Pvt Ltd",
+        "net_quantity": "200g",
+        "manufacturing_date": "2025-02",
+        "expiry_date": "2025-08",
+        "fssai_license": null,
+        "customer_care": "0141-2210892",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "45",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Haldiram Snacks Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "200g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2025-08",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "0141-2210892",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Haldiram Aloo Bhujia' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-4184",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Britannia Good Day",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "30",
+        "manufacturer": "Britannia Industries Ltd",
+        "net_quantity": "250g",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2026-03",
+        "fssai_license": null,
+        "customer_care": "1800-425-7002",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "30",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Britannia Industries Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "250g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-425-7002",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Britannia Good Day' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-2000",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Parle-G Biscuits",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "10",
+        "manufacturer": "Parle Products Pvt Ltd",
+        "net_quantity": "80g",
+        "manufacturing_date": "2025-04",
+        "expiry_date": "2026-04",
+        "fssai_license": null,
+        "customer_care": "022-66916911",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "10",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Parle Products Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "80g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "022-66916911",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Parle-G Biscuits' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-9515",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Dabur Honey",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "299",
+        "manufacturer": "Dabur India Ltd",
+        "net_quantity": "500g",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2027-01",
+        "fssai_license": null,
+        "customer_care": "1800-103-1644",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "299",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Dabur India Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "500g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2027-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-103-1644",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Dabur Honey' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-0306",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Kissan Mixed Fruit Jam",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "125",
+        "manufacturer": "Hindustan Unilever Ltd",
+        "net_quantity": "500g",
+        "manufacturing_date": "2025-02",
+        "expiry_date": "2026-08",
+        "fssai_license": null,
+        "customer_care": "1800-102-2221",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "125",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Hindustan Unilever Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "500g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-08",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-102-2221",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Kissan Mixed Fruit Jam' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-8843",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Maggi 2-Minute Noodles",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "14",
+        "manufacturer": "Nestle India Ltd",
+        "net_quantity": "70g",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2026-03",
+        "fssai_license": null,
+        "customer_care": "1800-103-1947",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "14",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Nestle India Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "70g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-103-1947",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Maggi 2-Minute Noodles' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-1520",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Bournvita Health Drink",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "450",
+        "manufacturer": "Mondelez India Foods Pvt Ltd",
+        "net_quantity": "500g",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2026-07",
+        "fssai_license": null,
+        "customer_care": "1800-226-7886",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "450",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Mondelez India Foods Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "500g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-07",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-226-7886",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Bournvita Health Drink' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-9075",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Fake Oil",
+        "category": "Food",
+        "is_imported": true
+      },
+      "label_fields": {
+        "mrp": null,
+        "manufacturer": "Unknown",
+        "net_quantity": null,
+        "manufacturing_date": null,
+        "expiry_date": null,
+        "fssai_license": null,
+        "customer_care": null,
+        "importer": "",
+        "country_of_origin": "Unknown"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Unknown",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "Unknown",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "Maximum Retail Price (MRP)",
+        "Manufacturer Name & Address",
+        "Net Quantity",
+        "Manufacturing / Packing Date",
+        "Expiry / Best Before Date",
+        "FSSAI License Number",
+        "Customer Care Details",
+        "Importer Name & Address",
+        "Country of Origin"
+      ],
+      "violations": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "description": "Maximum Retail Price (MRP) is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "description": "Manufacturer Name & Address is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "description": "Net Quantity is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "description": "Manufacturing / Packing Date is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "description": "Expiry / Best Before Date is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "description": "Customer Care Details is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "description": "Importer Name & Address is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "description": "Country of Origin is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 0.0,
+        "compliance_status": "NON_COMPLIANT",
+        "risk_level": "CRITICAL",
+        "total_fields_checked": 9,
+        "valid_fields": 0,
+        "missing_count": 9,
+        "violation_count": 9
+      },
+      "remarks": "❌ Product 'Fake Oil' is NON-COMPLIANT. Score: 0.0%. 9 mandatory field(s) missing. Immediate corrective action required. 🚨 RISK LEVEL: CRITICAL. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: Maximum Retail Price (MRP), Manufacturer Name & Address, Net Quantity, Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details, Importer Name & Address, Country of Origin.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: Maximum Retail Price (MRP), Manufacturer Name & Address, Net Quantity, Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details, Importer Name & Address, Country of Origin",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Imported products MUST display importer name and address per Rule 6(1)(g).",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-0426",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "No Brand Rice",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "40",
+        "manufacturer": null,
+        "net_quantity": "1kg",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2026-01",
+        "fssai_license": null,
+        "customer_care": null,
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "40",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "1kg",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "Manufacturer Name & Address",
+        "FSSAI License Number",
+        "Customer Care Details"
+      ],
+      "violations": [
+        {
+          "field": "Manufacturer Name & Address",
+          "description": "Manufacturer Name & Address is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "description": "Customer Care Details is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(h) — Consumer care contact details"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 62.5,
+        "compliance_status": "NON_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 5,
+        "missing_count": 3,
+        "violation_count": 3
+      },
+      "remarks": "❌ Product 'No Brand Rice' is NON-COMPLIANT. Score: 62.5%. 3 mandatory field(s) missing. Immediate corrective action required. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: Manufacturer Name & Address, FSSAI License Number, Customer Care Details.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: Manufacturer Name & Address, FSSAI License Number, Customer Care Details",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-2604",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Loose Spice Mix",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "30",
+        "manufacturer": "Local Vendor",
+        "net_quantity": "250g",
+        "manufacturing_date": null,
+        "expiry_date": null,
+        "fssai_license": null,
+        "customer_care": null,
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "30",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Local Vendor",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "250g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "Manufacturing / Packing Date",
+        "Expiry / Best Before Date",
+        "FSSAI License Number",
+        "Customer Care Details"
+      ],
+      "violations": [
+        {
+          "field": "Manufacturing / Packing Date",
+          "description": "Manufacturing / Packing Date is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "description": "Expiry / Best Before Date is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "description": "Customer Care Details is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(h) — Consumer care contact details"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 50.0,
+        "compliance_status": "NON_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 4,
+        "missing_count": 4,
+        "violation_count": 4
+      },
+      "remarks": "❌ Product 'Loose Spice Mix' is NON-COMPLIANT. Score: 50.0%. 4 mandatory field(s) missing. Immediate corrective action required. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-9721",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Imported Chocolate",
+        "category": "Food",
+        "is_imported": true
+      },
+      "label_fields": {
+        "mrp": "250",
+        "manufacturer": "Choco Corp",
+        "net_quantity": "100g",
+        "manufacturing_date": null,
+        "expiry_date": "2026-06",
+        "fssai_license": null,
+        "customer_care": null,
+        "importer": "Fancy Imports Ltd",
+        "country_of_origin": "Belgium"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "250",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Choco Corp",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "100g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-06",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "Fancy Imports Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "Belgium",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "Manufacturing / Packing Date",
+        "FSSAI License Number",
+        "Customer Care Details"
+      ],
+      "violations": [
+        {
+          "field": "Manufacturing / Packing Date",
+          "description": "Manufacturing / Packing Date is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "description": "Customer Care Details is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(h) — Consumer care contact details"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 66.67,
+        "compliance_status": "NON_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 9,
+        "valid_fields": 6,
+        "missing_count": 3,
+        "violation_count": 3
+      },
+      "remarks": "❌ Product 'Imported Chocolate' is NON-COMPLIANT. Score: 66.67%. 3 mandatory field(s) missing. Immediate corrective action required. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: Manufacturing / Packing Date, FSSAI License Number, Customer Care Details.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: Manufacturing / Packing Date, FSSAI License Number, Customer Care Details",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-3691",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Saffola Gold Oil",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "199",
+        "manufacturer": "Marico Ltd",
+        "net_quantity": "1L",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2026-09",
+        "fssai_license": null,
+        "customer_care": "1800-225-5353",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "199",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Marico Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "1L",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-09",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-225-5353",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Saffola Gold Oil' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-2986",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Real Fruit Juice",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "99",
+        "manufacturer": "Dabur India Ltd",
+        "net_quantity": "1L",
+        "manufacturing_date": "2025-04",
+        "expiry_date": "2026-04",
+        "fssai_license": null,
+        "customer_care": "1800-103-1644",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "99",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Dabur India Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "1L",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-103-1644",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Real Fruit Juice' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-5279",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Sunfeast Dark Fantasy",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "40",
+        "manufacturer": "ITC Ltd",
+        "net_quantity": "75g",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2026-01",
+        "fssai_license": null,
+        "customer_care": "1800-419-8899",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "40",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "ITC Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "75g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-419-8899",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Sunfeast Dark Fantasy' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-3249",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Cadbury Dairy Milk",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "50",
+        "manufacturer": "Mondelez India Foods Pvt Ltd",
+        "net_quantity": "52g",
+        "manufacturing_date": "2025-04",
+        "expiry_date": "2026-04",
+        "fssai_license": null,
+        "customer_care": "1800-226-7886",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "50",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Mondelez India Foods Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "52g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-226-7886",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Cadbury Dairy Milk' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-5501",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Red Label Tea",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "155",
+        "manufacturer": "Hindustan Unilever Ltd",
+        "net_quantity": "500g",
+        "manufacturing_date": "2025-02",
+        "expiry_date": "2027-02",
+        "fssai_license": null,
+        "customer_care": "1800-102-2221",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "155",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Hindustan Unilever Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "500g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2027-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-102-2221",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Red Label Tea' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-3493",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Tata Sampann Turmeric",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "69",
+        "manufacturer": "Tata Consumer Products Ltd",
+        "net_quantity": "100g",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2027-03",
+        "fssai_license": null,
+        "customer_care": "1800-209-8080",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "69",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Tata Consumer Products Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "100g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2027-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-209-8080",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Tata Sampann Turmeric' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-8893",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Catch Sprinklers Salt",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "30",
+        "manufacturer": "DS Group",
+        "net_quantity": "200g",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2027-01",
+        "fssai_license": null,
+        "customer_care": "011-23510591",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "30",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "DS Group",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "200g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2027-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "011-23510591",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Catch Sprinklers Salt' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-1659",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Lijjat Papad",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "55",
+        "manufacturer": "Shri Mahila Griha Udyog Lijjat Papad",
+        "net_quantity": "200g",
+        "manufacturing_date": "2025-04",
+        "expiry_date": "2026-04",
+        "fssai_license": null,
+        "customer_care": "022-24461614",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "55",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Shri Mahila Griha Udyog Lijjat Papad",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "200g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "022-24461614",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Lijjat Papad' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-3350",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Everest Garam Masala",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "95",
+        "manufacturer": "Everest Food Products Pvt Ltd",
+        "net_quantity": "100g",
+        "manufacturing_date": "2025-02",
+        "expiry_date": "2027-02",
+        "fssai_license": null,
+        "customer_care": "022-28764104",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "95",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Everest Food Products Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "100g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2027-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "022-28764104",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Everest Garam Masala' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-6987",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Paper Boat Aamras",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "30",
+        "manufacturer": "Hector Beverages Pvt Ltd",
+        "net_quantity": "200ml",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2026-03",
+        "fssai_license": null,
+        "customer_care": "080-49559555",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "30",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Hector Beverages Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "200ml",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "080-49559555",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Paper Boat Aamras' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-4614",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Pepsi",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "40",
+        "manufacturer": "PepsiCo India Holdings Pvt Ltd",
+        "net_quantity": "750ml",
+        "manufacturing_date": "2025-04",
+        "expiry_date": "2025-10",
+        "fssai_license": null,
+        "customer_care": "1800-120-8999",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "40",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "PepsiCo India Holdings Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "750ml",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2025-10",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-120-8999",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Pepsi' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-7330",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Coca-Cola",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "40",
+        "manufacturer": "Hindustan Coca-Cola Beverages Pvt Ltd",
+        "net_quantity": "750ml",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2025-09",
+        "fssai_license": null,
+        "customer_care": "1800-208-2653",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "40",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Hindustan Coca-Cola Beverages Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "750ml",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2025-09",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-208-2653",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Coca-Cola' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-0087",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Frooti Mango Drink",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "10",
+        "manufacturer": "Parle Agro Pvt Ltd",
+        "net_quantity": "200ml",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2026-01",
+        "fssai_license": null,
+        "customer_care": "022-66916911",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "10",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Parle Agro Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "200ml",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "022-66916911",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Frooti Mango Drink' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-3828",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Horlicks Health Drink",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "399",
+        "manufacturer": "Hindustan Unilever Ltd",
+        "net_quantity": "500g",
+        "manufacturing_date": "2025-02",
+        "expiry_date": "2026-08",
+        "fssai_license": null,
+        "customer_care": "1800-102-2221",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "399",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Hindustan Unilever Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "500g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-08",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-102-2221",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Horlicks Health Drink' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-0783",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Nescafe Classic Coffee",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "225",
+        "manufacturer": "Nestle India Ltd",
+        "net_quantity": "100g",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2027-03",
+        "fssai_license": null,
+        "customer_care": "1800-103-1947",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "225",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Nestle India Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "100g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2027-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-103-1947",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Nescafe Classic Coffee' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-2457",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Roadside Pickle",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "25",
+        "manufacturer": "Home Made",
+        "net_quantity": "500g",
+        "manufacturing_date": null,
+        "expiry_date": null,
+        "fssai_license": null,
+        "customer_care": null,
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "25",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Home Made",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "500g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "Manufacturing / Packing Date",
+        "Expiry / Best Before Date",
+        "FSSAI License Number",
+        "Customer Care Details"
+      ],
+      "violations": [
+        {
+          "field": "Manufacturing / Packing Date",
+          "description": "Manufacturing / Packing Date is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "description": "Expiry / Best Before Date is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "description": "Customer Care Details is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(h) — Consumer care contact details"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 50.0,
+        "compliance_status": "NON_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 4,
+        "missing_count": 4,
+        "violation_count": 4
+      },
+      "remarks": "❌ Product 'Roadside Pickle' is NON-COMPLIANT. Score: 50.0%. 4 mandatory field(s) missing. Immediate corrective action required. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-4783",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Unlabeled Ghee",
+        "category": "Dairy",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": null,
+        "manufacturer": "Local Dairy",
+        "net_quantity": "500ml",
+        "manufacturing_date": null,
+        "expiry_date": null,
+        "fssai_license": null,
+        "customer_care": null,
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Local Dairy",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "500ml",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "Maximum Retail Price (MRP)",
+        "Manufacturing / Packing Date",
+        "Expiry / Best Before Date",
+        "FSSAI License Number",
+        "Customer Care Details"
+      ],
+      "violations": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "description": "Maximum Retail Price (MRP) is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "description": "Manufacturing / Packing Date is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "description": "Expiry / Best Before Date is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "description": "Customer Care Details is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(h) — Consumer care contact details"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 37.5,
+        "compliance_status": "NON_COMPLIANT",
+        "risk_level": "CRITICAL",
+        "total_fields_checked": 8,
+        "valid_fields": 3,
+        "missing_count": 5,
+        "violation_count": 5
+      },
+      "remarks": "❌ Product 'Unlabeled Ghee' is NON-COMPLIANT. Score: 37.5%. 5 mandatory field(s) missing. Immediate corrective action required. 🚨 RISK LEVEL: CRITICAL. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: Maximum Retail Price (MRP), Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: Maximum Retail Price (MRP), Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-0033",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Street Juice Powder",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "5",
+        "manufacturer": null,
+        "net_quantity": "10g",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2025-06",
+        "fssai_license": null,
+        "customer_care": null,
+        "importer": "N/A (Domestic)",
+        "country_of_origin": null
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "5",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "10g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2025-06",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "Manufacturer Name & Address",
+        "FSSAI License Number",
+        "Customer Care Details",
+        "Country of Origin"
+      ],
+      "violations": [
+        {
+          "field": "Manufacturer Name & Address",
+          "description": "Manufacturer Name & Address is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "description": "Customer Care Details is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Country of Origin",
+          "description": "Country of Origin is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 50.0,
+        "compliance_status": "NON_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 4,
+        "missing_count": 4,
+        "violation_count": 4
+      },
+      "remarks": "❌ Product 'Street Juice Powder' is NON-COMPLIANT. Score: 50.0%. 4 mandatory field(s) missing. Immediate corrective action required. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: Manufacturer Name & Address, FSSAI License Number, Customer Care Details, Country of Origin.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: Manufacturer Name & Address, FSSAI License Number, Customer Care Details, Country of Origin",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-4045",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Fake Honey",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "99",
+        "manufacturer": null,
+        "net_quantity": "250g",
+        "manufacturing_date": null,
+        "expiry_date": null,
+        "fssai_license": null,
+        "customer_care": null,
+        "importer": "N/A (Domestic)",
+        "country_of_origin": null
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "99",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "250g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "Manufacturer Name & Address",
+        "Manufacturing / Packing Date",
+        "Expiry / Best Before Date",
+        "FSSAI License Number",
+        "Customer Care Details",
+        "Country of Origin"
+      ],
+      "violations": [
+        {
+          "field": "Manufacturer Name & Address",
+          "description": "Manufacturer Name & Address is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "description": "Manufacturing / Packing Date is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "description": "Expiry / Best Before Date is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "description": "Customer Care Details is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Country of Origin",
+          "description": "Country of Origin is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 25.0,
+        "compliance_status": "NON_COMPLIANT",
+        "risk_level": "CRITICAL",
+        "total_fields_checked": 8,
+        "valid_fields": 2,
+        "missing_count": 6,
+        "violation_count": 6
+      },
+      "remarks": "❌ Product 'Fake Honey' is NON-COMPLIANT. Score: 25.0%. 6 mandatory field(s) missing. Immediate corrective action required. 🚨 RISK LEVEL: CRITICAL. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: Manufacturer Name & Address, Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details, Country of Origin.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: Manufacturer Name & Address, Manufacturing / Packing Date, Expiry / Best Before Date, FSSAI License Number, Customer Care Details, Country of Origin",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-4091",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Ashirvaad Atta",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "310",
+        "manufacturer": "ITC Ltd",
+        "net_quantity": "5kg",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2026-03",
+        "fssai_license": null,
+        "customer_care": "1800-419-8899",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "310",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "ITC Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "5kg",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-419-8899",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Ashirvaad Atta' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-6261",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Rajdhani Besan",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "75",
+        "manufacturer": "Rajdhani Traders",
+        "net_quantity": "500g",
+        "manufacturing_date": "2025-02",
+        "expiry_date": "2026-08",
+        "fssai_license": null,
+        "customer_care": "011-23240405",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "75",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Rajdhani Traders",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "500g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-08",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "011-23240405",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Rajdhani Besan' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-1383",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "MDH Chana Masala",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "60",
+        "manufacturer": "Mahashian Di Hatti Pvt Ltd",
+        "net_quantity": "100g",
+        "manufacturing_date": "2025-01",
+        "expiry_date": "2027-01",
+        "fssai_license": null,
+        "customer_care": "011-27473741",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "60",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Mahashian Di Hatti Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "100g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2027-01",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "011-27473741",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'MDH Chana Masala' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-8010",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Saffola Oats",
+        "category": "Food",
+        "is_imported": false
+      },
+      "label_fields": {
+        "mrp": "199",
+        "manufacturer": "Marico Ltd",
+        "net_quantity": "1kg",
+        "manufacturing_date": "2025-04",
+        "expiry_date": "2026-10",
+        "fssai_license": null,
+        "customer_care": "1800-225-5353",
+        "importer": "N/A (Domestic)",
+        "country_of_origin": "India"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "199",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Marico Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "1kg",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-04",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-10",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-225-5353",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "NOT_APPLICABLE",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "India",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 87.5,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 8,
+        "valid_fields": 7,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Saffola Oats' is PARTIALLY COMPLIANT. Score: 87.5%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-0401",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Kelloggs Corn Flakes",
+        "category": "Food",
+        "is_imported": true
+      },
+      "label_fields": {
+        "mrp": "285",
+        "manufacturer": "Kellogg India Pvt Ltd",
+        "net_quantity": "475g",
+        "manufacturing_date": "2025-03",
+        "expiry_date": "2026-09",
+        "fssai_license": null,
+        "customer_care": "1800-225-5353",
+        "importer": "Kellogg Company USA",
+        "country_of_origin": "USA"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "285",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "Kellogg India Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "475g",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-03",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-09",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-225-5353",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "Kellogg Company USA",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "USA",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 88.89,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 9,
+        "valid_fields": 8,
+        "missing_count": 1,
+        "violation_count": 1
+      },
+      "remarks": "⚠️ Product 'Kelloggs Corn Flakes' is PARTIALLY COMPLIANT. Score: 88.89%. 1 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    },
+    {
+      "report_id": "FOOD-RPT-20260509075532-0443",
+      "generated_date": "2026-05-09 07:55:32",
+      "legal_framework": "Legal Metrology (Packaged Commodities) Rules, 2011",
+      "product_details": {
+        "product_name": "Quaker Oats",
+        "category": "Food",
+        "is_imported": true
+      },
+      "label_fields": {
+        "mrp": "199",
+        "manufacturer": "PepsiCo India Holdings Pvt Ltd",
+        "net_quantity": "1kg",
+        "manufacturing_date": "2025-02",
+        "expiry_date": "2026-08",
+        "fssai_license": null,
+        "customer_care": "1800-120-8999",
+        "importer": "N/A",
+        "country_of_origin": "USA"
+      },
+      "validation_results": [
+        {
+          "field": "Maximum Retail Price (MRP)",
+          "value": "199",
+          "status": "VALID",
+          "rule": "Rule 6(1)(f) — MRP inclusive of all taxes"
+        },
+        {
+          "field": "Manufacturer Name & Address",
+          "value": "PepsiCo India Holdings Pvt Ltd",
+          "status": "VALID",
+          "rule": "Rule 6(1)(b) — Name and complete address of manufacturer/packer"
+        },
+        {
+          "field": "Net Quantity",
+          "value": "1kg",
+          "status": "VALID",
+          "rule": "Rule 6(1)(c) — Net quantity by weight, measure, or number"
+        },
+        {
+          "field": "Manufacturing / Packing Date",
+          "value": "2025-02",
+          "status": "VALID",
+          "rule": "Rule 6(1)(d) — Month and year of manufacture or packing"
+        },
+        {
+          "field": "Expiry / Best Before Date",
+          "value": "2026-08",
+          "status": "VALID",
+          "rule": "Rule 6(1)(e) — Best before or use by date"
+        },
+        {
+          "field": "FSSAI License Number",
+          "value": "—",
+          "status": "MISSING",
+          "rule": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Customer Care Details",
+          "value": "1800-120-8999",
+          "status": "VALID",
+          "rule": "Rule 6(1)(h) — Consumer care contact details"
+        },
+        {
+          "field": "Importer Name & Address",
+          "value": "N/A",
+          "status": "MISSING",
+          "rule": "Rule 6(1)(g) — Required for imported goods"
+        },
+        {
+          "field": "Country of Origin",
+          "value": "USA",
+          "status": "VALID",
+          "rule": "Rule 6(1)(g) — Country of origin for imported products"
+        }
+      ],
+      "missing_fields": [
+        "FSSAI License Number",
+        "Importer Name & Address"
+      ],
+      "violations": [
+        {
+          "field": "FSSAI License Number",
+          "description": "FSSAI License Number is missing or invalid",
+          "severity": "CRITICAL",
+          "rule_violated": "FSS Act 2006, Section 31 — FSSAI license mandatory for food products"
+        },
+        {
+          "field": "Importer Name & Address",
+          "description": "Importer Name & Address is missing or invalid",
+          "severity": "HIGH",
+          "rule_violated": "Rule 6(1)(g) — Required for imported goods"
+        }
+      ],
+      "compliance_summary": {
+        "compliance_score": 77.78,
+        "compliance_status": "PARTIALLY_COMPLIANT",
+        "risk_level": "HIGH",
+        "total_fields_checked": 9,
+        "valid_fields": 7,
+        "missing_count": 2,
+        "violation_count": 2
+      },
+      "remarks": "⚠️ Product 'Quaker Oats' is PARTIALLY COMPLIANT. Score: 77.78%. 2 mandatory field(s) are missing. 🚨 RISK LEVEL: HIGH. This product may be subject to seizure and penalties under Section 36 of the Legal Metrology Act, 2009. Missing: FSSAI License Number, Importer Name & Address.",
+      "recommendations": [
+        "Add the following mandatory fields to the label: FSSAI License Number, Importer Name & Address",
+        "URGENT: Resolve all CRITICAL violations before product distribution.",
+        "Imported products MUST display importer name and address per Rule 6(1)(g).",
+        "Ensure MRP is printed in Indian Rupees (₹) inclusive of all taxes.",
+        "Net quantity must be in standard metric units (g, kg, ml, L).",
+        "Manufacturing and expiry dates should use MM/YYYY or DD/MM/YYYY format.",
+        "FSSAI license number is mandatory for all food products sold in India.",
+        "Customer care number must be a working toll-free or landline number."
+      ]
+    }
+  ]
+}

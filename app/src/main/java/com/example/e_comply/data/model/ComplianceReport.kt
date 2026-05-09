@@ -15,7 +15,21 @@ data class ComplianceReport(
     val inspectorId: String = "",
     val inspectorNotes: String = "",
     val createdAt: Long = System.currentTimeMillis(),
-    val updatedAt: Long = System.currentTimeMillis()
+    val updatedAt: Long = System.currentTimeMillis(),
+    // New structured report fields for Legal Metrology compliance
+    val validationResults: List<ValidationResult> = emptyList(),
+    val category: String = "",
+    val brandName: String = "",
+    val remarks: String = ""
+)
+
+/**
+ * Structured validation result for each mandatory field.
+ * Maps to the validation_results array in the JSON report.
+ */
+data class ValidationResult(
+    val field: String = "",
+    val status: String = "" // "Valid" or "Missing"
 )
 
 data class Violation(

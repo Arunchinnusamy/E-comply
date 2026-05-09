@@ -19,6 +19,8 @@ private val DarkColorScheme = darkColorScheme(
     onSecondary = BrandOnSecondaryDark,
     secondaryContainer = BrandSecondaryContainerDark,
     onSecondaryContainer = BrandOnSecondaryContainerDark,
+    tertiary = BrandTertiary,
+    onTertiary = BrandOnTertiary,
     background = AppBackgroundDark,
     surface = AppSurfaceDark,
     surfaceVariant = AppSurfaceVariantDark,
@@ -35,11 +37,16 @@ private val LightColorScheme = lightColorScheme(
     onSecondary = BrandOnSecondary,
     secondaryContainer = BrandSecondaryContainer,
     onSecondaryContainer = BrandOnSecondaryContainer,
+    tertiary = BrandTertiary,
+    onTertiary = BrandOnTertiary,
+    tertiaryContainer = BrandTertiaryContainer,
+    onTertiaryContainer = BrandOnTertiaryContainer,
     background = AppBackground,
     surface = AppSurface,
     surfaceVariant = AppSurfaceVariant,
     onSurface = AppOnSurface,
-    onSurfaceVariant = AppOnSurfaceVariant
+    onSurfaceVariant = AppOnSurfaceVariant,
+    outline = AppOutline
 )
 
 @Composable

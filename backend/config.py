@@ -13,20 +13,41 @@ class Config:
     
     # Firebase settings
     FIREBASE_CREDENTIALS_PATH = os.getenv('FIREBASE_CREDENTIALS_PATH', 'firebase-credentials.json')
+
+    # IoT settings
+    # Set IOT_API_KEY in .env – leave blank to skip key check (dev/debug only)
+    IOT_API_KEY = os.getenv('IOT_API_KEY', '')
     
     # OCR settings
     TESSERACT_CMD = os.getenv('TESSERACT_CMD', 'tesseract')  # Path to tesseract executable
     USE_EASYOCR = os.getenv('USE_EASYOCR', 'True') == 'True'
+
+    # ── AI / ML Model Settings ────────────────────────────────────────
+    # Gemini API — set your key in .env: GEMINI_API_KEY=AIza...
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
+    USE_GEMINI = os.getenv('USE_GEMINI', 'True') == 'True'
+
+    # ML Risk Prediction — uses trained Random Forest model
+    USE_ML_RISK = os.getenv('USE_ML_RISK', 'True') == 'True'
     
-    # Legal Metrology Rules
+    # Legal Metrology Rules — all 16 mandatory fields
     MANDATORY_FIELDS = [
+        'Product Name',
+        'Brand Name',
+        'Category',
         'Manufacturer Name',
         'Manufacturer Address',
-        'Net Quantity',
+        'Importer Name',
+        'Importer Address',
         'MRP',
+        'Net Quantity',
         'Manufacturing/Packing Date',
+        'Expiry Date',
+        'Batch Number',
         'Customer Care Details',
-        'Country of Origin'
+        'Country of Origin',
+        'Barcode / QR Code',
+        'License Number',
     ]
     
     # E-commerce settings
